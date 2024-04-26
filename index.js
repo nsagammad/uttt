@@ -84,10 +84,12 @@ function clickCell(cell) {
           case 2:
             // update game message
             gameMessage.innerHTML = playerNames[currentPlayer] + " wins the game!";
+            gameOngoing = false;
             break;
           case 3:
             // update game message
             gameMessage.innerHTML = "It's a draw!";
+            gameOngoing = false;
             break;
         }
         break;
@@ -105,6 +107,7 @@ function clickCell(cell) {
         if (bigDraw == 3) {
           // update game message
           gameMessage.innerHTML = "It's a draw!";
+          gameOngoing = false;
         }
         break;
       default:
@@ -112,21 +115,23 @@ function clickCell(cell) {
         gameMessage.innerHTML = playerNames[(currentPlayer + 1) % 2] + "'s turn!";
     }
 
-    // pick new big cell
-    if (bigboard[small] == 0) {
-      currentBigCell = small;
+    if (gameOngoing) {
+      // pick new big cell
+      if (bigboard[small] == 0) {
+        currentBigCell = small;
 
-      bigcellid = "bigcell-" + small;
-      bigcell = document.getElementById(bigcellid);
-      changeColor(bigcell, 3);
-    }
-    else {
-      currentBigCell = -1;
-    }
-    console.log("Current big cell: " + currentBigCell);
+        bigcellid = "bigcell-" + small;
+        bigcell = document.getElementById(bigcellid);
+        changeColor(bigcell, 3);
+      }
+      else {
+        currentBigCell = -1;
+      }
+      console.log("Current big cell: " + currentBigCell);
 
-    // switch players
-    switchPlayer();
+      // switch players
+      switchPlayer();
+    }
   }
 }
 
@@ -177,10 +182,11 @@ function boardReset() {
   currentPlayer = 0;
   gameContainer.style.backgroundColor = "blue";
   playerColor.style.backgroundColor = "blue";
-  playerColor.innerHTML = "Blue";
-  gameMessage.innerHTML = "Blue's turn!";
+  playerColor.innerHTML = playerNames[0];
+  gameMessage.innerHTML = playerNames[0] + "'s turn!";
 
   // reset game
+  currentBigCell = -1;
   gameOngoing = true;
 }
 
