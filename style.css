@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.game-container {
+  margin: auto;
+  height: 630px;
+  width: 700px;
+  background-color: blue;
+}
+
+.big-row {
+  height: 210px;
+  width: 630px;
+  margin: auto;
+  display: flex;
+}
+
+.big-cell {
+  height: 210px;
+  width: 210px;
+  background-color: black;
+}
+
+.small-container {
+  height: 180px;
+  width: 180px;
+  margin: 15px;
+  background-color: gray;
+}
+
+.small-row {
+  height: 60px;
+  width: 180px;
+  display: flex;
+}
+
+.small-cell {
+  height: 60px;
+  width: 60px;
+  background-color: gray;
+}
+
+.smallest-cell {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  background-color: white;
+}
+
+.current-player {
+  display: flex;
+}
+
+.player-color {
+  background-color: blue;
+  color: white;
+  width: 50px;
+}
