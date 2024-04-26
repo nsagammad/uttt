@@ -98,7 +98,7 @@ function clickCell(cell) {
         // change color of cell
         let bigcelldrawid = "bigcell-" + big;
         let bigcelldraw = document.getElementById(bigcelldrawid);
-        changeColor(bigcelldraw, currentPlayer);
+        changeColor(bigcelldraw, 2);
 
         // check win in big board
         let bigDraw = checkWin(bigboard);
@@ -179,6 +179,9 @@ function boardReset() {
   playerColor.style.backgroundColor = "blue";
   playerColor.innerHTML = "Blue";
   gameMessage.innerHTML = "Blue's turn!";
+
+  // reset game
+  gameOngoing = true;
 }
 
 // check valid move
