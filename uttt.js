@@ -38,8 +38,8 @@ function switchPlayer() {
   playerColor.innerHTML = playerNames[currentPlayer];
 }
 
-// click big cell
-function clickBigCell(cell) {
+// click cell
+function clickCell(cell) {
   // get indices
   let big = cell.id.substring(5,6);
   let small = cell.id.substring(7,8);
@@ -48,26 +48,67 @@ function clickBigCell(cell) {
 
   // check if valid move
   if (checkValid(big, small)) {
-    // change value of bigboard[small]
-    bigboard[big] = currentPlayer + 1;
-    console.log(bigboard);
+    // change value of smallboards[big][small]
+    smallboards[big][small] = currentPlayer + 1;
+    console.log(smallboards[big]);
 
     // change background color of smallest cell
     changeColor(cell, currentPlayer);
 
-    // check win in big board
-    let bigWin = checkWin(bigboard);
-    switch(bigWin) {
+    // change background color of big cell to black
+    let bigcellid = "bigcell-" + big;
+    let bigcell = document.getElementById(bigcellid);
+    changeColor(bigcell, 4);
+    
+    // check win in small board
+    let smallWin = checkWin(smallboards[big]);
+    console.log(smallWin);
+    switch(smallWin) {
       case 1:
       case 2:
         // update game message
-        gameMessage.innerHTML = playerNames[currentPlayer] + " wins the game!";
-        gameOngoing = false;
+        gameMessage.innerHTML = playerNames[currentPlayer] + " wins Cell " + big + "! " + playerNames[(currentPlayer + 1) % 2] + "'s turn!";
+
+        // update bigboard
+        bigboard[big] = currentPlayer + 1;
+
+        // change color of cell
+        let bigcellwinid = "bigcell-" + big;
+        let bigcellwin = document.getElementById(bigcellwinid);
+        changeColor(bigcellwin, currentPlayer);
+
+        // check win in big board
+        let bigWin = checkWin(bigboard);
+        switch(bigWin) {
+          case 1:
+          case 2:
+            // update game message
+            gameMessage.innerHTML = playerNames[currentPlayer] + " wins the game!";
+            gameOngoing = false;
+            break;
+          case 3:
+            // update game message
+            gameMessage.innerHTML = "It's a draw!";
+            gameOngoing = false;
+            break;
+        }
         break;
       case 3:
-        // update game message
-        gameMessage.innerHTML = "It's a draw!";
-        gameOngoing = false;
+        // update bigboard
+        bigboard[big] = 3;
+
+        // change color of cell
+        let bigcelldrawid = "bigcell-" + big;
+        let bigcelldraw = document.getElementById(bigcelldrawid);
+        changeColor(bigcelldraw, 2);
+
+        // check win in big board
+        let bigDraw = checkWin(bigboard);
+        if (bigDraw == 3) {
+          // update game message
+          gameMessage.innerHTML = "It's a draw!";
+          gameOngoing = false;
+        }
         break;
       default:
         // update game message
@@ -75,6 +116,19 @@ function clickBigCell(cell) {
     }
 
     if (gameOngoing) {
+      // pick new big cell
+      if (bigboard[small] == 0) {
+        currentBigCell = small;
+
+        bigcellid = "bigcell-" + small;
+        bigcell = document.getElementById(bigcellid);
+        changeColor(bigcell, 3);
+      }
+      else {
+        currentBigCell = -1;
+      }
+      console.log("Current big cell: " + currentBigCell);
+
       // switch players
       switchPlayer();
     }
