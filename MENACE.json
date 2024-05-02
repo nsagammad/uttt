@@ -1,0 +1,2539 @@
+{
+  "turn0" : [
+  {
+  "stateName" : "_________",
+  "Beads" : [5,5,5,5,5,5,5,5,5]
+  }
+  ],
+  "turn1" : [
+  {
+  "stateName" : "B________",
+  "Beads" : [0,5,5,5,5,5,5,5,5]
+  },
+  {
+  "stateName" : "_B_______",
+  "Beads" : [5,0,5,5,5,5,5,5,5]
+  },
+  {
+  "stateName" : "____B____",
+  "Beads" : [5,5,5,5,0,5,5,5,5]
+  }
+  ],
+  "turn2" : [
+  {
+  "stateName" : "BR_______",
+  "Beads" : [0,0,5,5,5,5,5,5,5]
+  },
+  {
+  "stateName" : "B_R______",
+  "Beads" : [0,5,0,5,5,5,5,5,5]
+  },
+  {
+  "stateName" : "B___R____",
+  "Beads" : [0,5,5,5,0,5,5,5,5]
+  },
+  {
+  "stateName" : "B____R___",
+  "Beads" : [0,5,5,5,5,0,5,5,5]
+  },
+  {
+  "stateName" : "B_______R",
+  "Beads" : [0,5,5,5,5,5,5,5,0]
+  },
+  {
+  "stateName" : "RB_______",
+  "Beads" : [0,0,5,5,5,5,5,5,5]
+  },
+  {
+  "stateName" : "_B_R_____",
+  "Beads" : [5,0,5,0,5,5,5,5,5]
+  },
+  {
+  "stateName" : "_B__R____",
+  "Beads" : [5,0,5,5,0,5,5,5,5]
+  },
+  {
+  "stateName" : "_B____R__",
+  "Beads" : [5,0,5,5,5,5,0,5,5]
+  },
+  {
+  "stateName" : "_B_____R_",
+  "Beads" : [5,0,5,5,5,5,5,0,5]
+  },
+  {
+  "stateName" : "R___B____",
+  "Beads" : [0,5,5,5,0,5,5,5,5]
+  },
+  {
+  "stateName" : "_R__B____",
+  "Beads" : [5,0,5,5,0,5,5,5,5]
+  }
+  ],
+  "turn3" : [
+  {
+  "stateName" : "BRB______",
+  "Beads" : [0,0,0,5,5,5,5,5,5]
+  },
+  {
+  "stateName" : "BR_B_____",
+  "Beads" : [0,0,5,0,5,5,5,5,5]
+  },
+  {
+  "stateName" : "BR__B____",
+  "Beads" : [0,0,5,5,0,5,5,5,5]
+  },
+  {
+  "stateName" : "BR___B___",
+  "Beads" : [0,0,5,5,5,0,5,5,5]
+  },
+  {
+  "stateName" : "BR____B__",
+  "Beads" : [0,0,5,5,5,5,0,5,5]
+  },
+  {
+  "stateName" : "BR_____B_",
+  "Beads" : [0,0,5,5,5,5,5,0,5]
+  },
+  {
+  "stateName" : "BR______B",
+  "Beads" : [0,0,5,5,5,5,5,5,0]
+  },
+  {
+  "stateName" : "BBR______",
+  "Beads" : [0,0,0,5,5,5,5,5,5]
+  },
+  {
+  "stateName" : "B_RB_____",
+  "Beads" : [0,5,0,0,5,5,5,5,5]
+  },
+  {
+  "stateName" : "B_R_B____",
+  "Beads" : [0,5,0,5,0,5,5,5,5]
+  },
+  {
+  "stateName" : "B_R__B___",
+  "Beads" : [0,5,0,5,5,0,5,5,5]
+  },
+  {
+  "stateName" : "B_R___B__",
+  "Beads" : [0,5,0,5,5,5,0,5,5]
+  },
+  {
+  "stateName" : "B_R____B_",
+  "Beads" : [0,5,0,5,5,5,5,0,5]
+  },
+  {
+  "stateName" : "B_R_____B",
+  "Beads" : [0,5,0,5,5,5,5,5,0]
+  },
+  {
+  "stateName" : "BB__R____",
+  "Beads" : [0,0,5,5,0,5,5,5,5]
+  },
+  {
+  "stateName" : "B_B_R____",
+  "Beads" : [0,5,0,5,0,5,5,5,5]
+  },
+  {
+  "stateName" : "B___RB___",
+  "Beads" : [0,5,5,5,0,0,5,5,5]
+  },
+  {
+  "stateName" : "B___R___B",
+  "Beads" : [0,5,5,5,0,5,5,5,0]
+  },
+  {
+  "stateName" : "BB___R___",
+  "Beads" : [0,0,5,5,5,0,5,5,5]
+  },
+  {
+  "stateName" : "B__B_R___",
+  "Beads" : [0,5,5,0,5,0,5,5,5]
+  },
+  {
+  "stateName" : "B___BR___",
+  "Beads" : [0,5,5,5,0,0,5,5,5]
+  },
+  {
+  "stateName" : "B____RB__",
+  "Beads" : [0,5,5,5,5,0,0,5,5]
+  },
+  {
+  "stateName" : "B____R_B_",
+  "Beads" : [0,5,5,5,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BB______R",
+  "Beads" : [0,0,5,5,5,5,5,5,0]
+  },
+  {
+  "stateName" : "B___B___R",
+  "Beads" : [0,5,5,5,0,5,5,5,0]
+  },
+  {
+  "stateName" : "B____B__R",
+  "Beads" : [0,5,5,5,5,0,5,5,0]
+  },
+  {
+  "stateName" : "RB_B_____",
+  "Beads" : [0,0,5,0,5,5,5,5,5]
+  },
+  {
+  "stateName" : "RB__B____",
+  "Beads" : [0,0,5,5,0,5,5,5,5]
+  },
+  {
+  "stateName" : "RB___B___",
+  "Beads" : [0,0,5,5,5,0,5,5,5]
+  },
+  {
+  "stateName" : "RB_____B_",
+  "Beads" : [0,0,5,5,5,5,5,0,5]
+  },
+  {
+  "stateName" : "_B_RB____",
+  "Beads" : [5,0,5,0,0,5,5,5,5]
+  },
+  {
+  "stateName" : "_B_R_B___",
+  "Beads" : [5,0,5,0,5,0,5,5,5]
+  },
+  {
+  "stateName" : "_B_R___B_",
+  "Beads" : [5,0,5,0,5,5,5,0,5]
+  },
+  {
+  "stateName" : "_B_BR____",
+  "Beads" : [5,0,5,0,0,5,5,5,5]
+  },
+  {
+  "stateName" : "_B__R__B_",
+  "Beads" : [5,0,5,5,0,5,5,0,5]
+  },
+  {
+  "stateName" : "_B__B_R__",
+  "Beads" : [5,0,5,5,0,5,0,5,5]
+  },
+  {
+  "stateName" : "_B___BR__",
+  "Beads" : [5,0,5,5,5,0,0,5,5]
+  },
+  {
+  "stateName" : "_B__B__R_",
+  "Beads" : [5,0,5,5,0,5,5,0,5]
+  }
+  ],
+  "turn4" : [
+  {
+  "stateName" : "BRBR_____",
+  "Beads" : [0,0,0,0,5,5,5,5,5]
+  },
+  {
+  "stateName" : "BRB_R____",
+  "Beads" : [0,0,0,5,0,5,5,5,5]
+  },
+  {
+  "stateName" : "BRB___R__",
+  "Beads" : [0,0,0,5,5,5,0,5,5]
+  },
+  {
+  "stateName" : "BRB____R_",
+  "Beads" : [0,0,0,5,5,5,5,0,5]
+  },
+  {
+  "stateName" : "BRRB_____",
+  "Beads" : [0,0,0,0,5,5,5,5,5]
+  },
+  {
+  "stateName" : "BR_BR____",
+  "Beads" : [0,0,5,0,0,5,5,5,5]
+  },
+  {
+  "stateName" : "BR_B_R___",
+  "Beads" : [0,0,5,0,5,0,5,5,5]
+  },
+  {
+  "stateName" : "BR_B__R__",
+  "Beads" : [0,0,5,0,5,5,0,5,5]
+  },
+  {
+  "stateName" : "BR_B___R_",
+  "Beads" : [0,0,5,0,5,5,5,0,5]
+  },
+  {
+  "stateName" : "BR_B____R",
+  "Beads" : [0,0,5,0,5,5,5,5,0]
+  },
+  {
+  "stateName" : "BRR_B____",
+  "Beads" : [0,0,0,5,0,5,5,5,5]
+  },
+  {
+  "stateName" : "BR_RB____",
+  "Beads" : [0,0,5,0,0,5,5,5,5]
+  },
+  {
+  "stateName" : "BR__BR___",
+  "Beads" : [0,0,5,5,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BR__B_R__",
+  "Beads" : [0,0,5,5,0,5,0,5,5]
+  },
+  {
+  "stateName" : "BR__B__R_",
+  "Beads" : [0,0,5,5,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BR__B___R",
+  "Beads" : [0,0,5,5,0,5,5,5,0]
+  },
+  {
+  "stateName" : "BRR__B___",
+  "Beads" : [0,0,0,5,5,0,5,5,5]
+  },
+  {
+  "stateName" : "BR_R_B___",
+  "Beads" : [0,0,5,0,5,0,5,5,5]
+  },
+  {
+  "stateName" : "BR__RB___",
+  "Beads" : [0,0,5,5,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BR___BR__",
+  "Beads" : [0,0,5,5,5,0,0,5,5]
+  },
+  {
+  "stateName" : "BR___B_R_",
+  "Beads" : [0,0,5,5,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BR___B__R",
+  "Beads" : [0,0,5,5,5,0,5,5,0]
+  },
+  {
+  "stateName" : "BRR___B__",
+  "Beads" : [0,0,0,5,5,5,0,5,5]
+  },
+  {
+  "stateName" : "BR__R_B__",
+  "Beads" : [0,0,5,5,0,5,0,5,5]
+  },
+  {
+  "stateName" : "BR___RB__",
+  "Beads" : [0,0,5,5,5,0,0,5,5]
+  },
+  {
+  "stateName" : "BR____BR_",
+  "Beads" : [0,0,5,5,5,5,0,0,5]
+  },
+  {
+  "stateName" : "BR____B_R",
+  "Beads" : [0,0,5,5,5,5,0,5,0]
+  },
+  {
+  "stateName" : "BRR____B_",
+  "Beads" : [0,0,0,5,5,5,5,0,5]
+  },
+  {
+  "stateName" : "BR__R__B_",
+  "Beads" : [0,0,5,5,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BR___R_B_",
+  "Beads" : [0,0,5,5,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BR____RB_",
+  "Beads" : [0,0,5,5,5,5,0,0,5]
+  },
+  {
+  "stateName" : "BR_____BR",
+  "Beads" : [0,0,5,5,5,5,5,0,0]
+  },
+  {
+  "stateName" : "BRR_____B",
+  "Beads" : [0,0,0,5,5,5,5,5,0]
+  },
+  {
+  "stateName" : "BR_R____B",
+  "Beads" : [0,0,5,0,5,5,5,5,0]
+  },
+  {
+  "stateName" : "BR__R___B",
+  "Beads" : [0,0,5,5,0,5,5,5,0]
+  },
+  {
+  "stateName" : "BR___R__B",
+  "Beads" : [0,0,5,5,5,0,5,5,0]
+  },
+  {
+  "stateName" : "BR____R_B",
+  "Beads" : [0,0,5,5,5,5,0,5,0]
+  },
+  {
+  "stateName" : "BR_____RB",
+  "Beads" : [0,0,5,5,5,5,5,0,0]
+  },
+  {
+  "stateName" : "BBR_R____",
+  "Beads" : [0,0,0,5,0,5,5,5,5]
+  },
+  {
+  "stateName" : "BBR__R___",
+  "Beads" : [0,0,0,5,5,0,5,5,5]
+  },
+  {
+  "stateName" : "BBR___R__",
+  "Beads" : [0,0,0,5,5,5,0,5,5]
+  },
+  {
+  "stateName" : "BBR____R_",
+  "Beads" : [0,0,0,5,5,5,5,0,5]
+  },
+  {
+  "stateName" : "BBR_____R",
+  "Beads" : [0,0,0,5,5,5,5,5,0]
+  },
+  {
+  "stateName" : "B_RBR____",
+  "Beads" : [0,5,0,0,0,5,5,5,5]
+  },
+  {
+  "stateName" : "B_RB_R___",
+  "Beads" : [0,5,0,0,5,0,5,5,5]
+  },
+  {
+  "stateName" : "B_RB___R_",
+  "Beads" : [0,5,0,0,5,5,5,0,5]
+  },
+  {
+  "stateName" : "B_RB____R",
+  "Beads" : [0,5,0,0,5,5,5,5,0]
+  },
+  {
+  "stateName" : "B_R_BR___",
+  "Beads" : [0,5,0,5,0,0,5,5,5]
+  },
+  {
+  "stateName" : "B_R_B_R__",
+  "Beads" : [0,5,0,5,0,5,0,5,5]
+  },
+  {
+  "stateName" : "B_R_B__R_",
+  "Beads" : [0,5,0,5,0,5,5,0,5]
+  },
+  {
+  "stateName" : "B_R_B___R",
+  "Beads" : [0,5,0,5,0,5,5,5,0]
+  },
+  {
+  "stateName" : "B_R_RB___",
+  "Beads" : [0,5,0,5,0,0,5,5,5]
+  },
+  {
+  "stateName" : "B_R__BR__",
+  "Beads" : [0,5,0,5,5,0,0,5,5]
+  },
+  {
+  "stateName" : "B_R__B_R_",
+  "Beads" : [0,5,0,5,5,0,5,0,5]
+  },
+  {
+  "stateName" : "B_R__B__R",
+  "Beads" : [0,5,0,5,5,0,5,5,0]
+  },
+  {
+  "stateName" : "B_R_R_B__",
+  "Beads" : [0,5,0,5,0,5,0,5,5]
+  },
+  {
+  "stateName" : "B_R__RB__",
+  "Beads" : [0,5,0,5,5,0,0,5,5]
+  },
+  {
+  "stateName" : "B_R___B_R",
+  "Beads" : [0,5,0,5,5,5,0,5,0]
+  },
+  {
+  "stateName" : "B_R_R__B_",
+  "Beads" : [0,5,0,5,0,5,5,0,5]
+  },
+  {
+  "stateName" : "B_R__R_B_",
+  "Beads" : [0,5,0,5,5,0,5,0,5]
+  },
+  {
+  "stateName" : "B_R____BR",
+  "Beads" : [0,5,0,5,5,5,5,0,0]
+  },
+  {
+  "stateName" : "B_R_R___B",
+  "Beads" : [0,5,0,5,0,5,5,5,0]
+  },
+  {
+  "stateName" : "B_R___R_B",
+  "Beads" : [0,5,0,5,5,5,0,5,0]
+  },
+  {
+  "stateName" : "BB__RR___",
+  "Beads" : [0,0,5,5,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BB__R__R_",
+  "Beads" : [0,0,5,5,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BB__R___R",
+  "Beads" : [0,0,5,5,0,5,5,5,0]
+  },
+  {
+  "stateName" : "B_B_R__R_",
+  "Beads" : [0,5,0,5,0,5,5,0,5]
+  },
+  {
+  "stateName" : "B___RB_R_",
+  "Beads" : [0,5,5,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "B___RB__R",
+  "Beads" : [0,5,5,5,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BB___R_R_",
+  "Beads" : [0,0,5,5,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BB___R__R",
+  "Beads" : [0,0,5,5,5,0,5,5,0]
+  },
+  {
+  "stateName" : "B__B_R__R",
+  "Beads" : [0,5,5,0,5,0,5,5,0]
+  },
+  {
+  "stateName" : "B___BR_R_",
+  "Beads" : [0,5,5,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "B___BR__R",
+  "Beads" : [0,5,5,5,0,0,5,5,0]
+  },
+  {
+  "stateName" : "B____R_BR",
+  "Beads" : [0,5,5,5,5,0,5,0,0]
+  },
+  {
+  "stateName" : "RBRB_____",
+  "Beads" : [0,0,0,0,5,5,5,5,5]
+  },
+  {
+  "stateName" : "RB_BR____",
+  "Beads" : [0,0,5,0,0,5,5,5,5]
+  },
+  {
+  "stateName" : "RB_B_R___",
+  "Beads" : [0,0,5,0,5,0,5,5,5]
+  },
+  {
+  "stateName" : "RB_B____R",
+  "Beads" : [0,0,5,0,5,5,5,5,0]
+  },
+  {
+  "stateName" : "RBR_B____",
+  "Beads" : [0,0,0,5,0,5,5,5,5]
+  },
+  {
+  "stateName" : "RB_RB____",
+  "Beads" : [0,0,5,0,0,5,5,5,5]
+  },
+  {
+  "stateName" : "RB__BR___",
+  "Beads" : [0,0,5,5,0,0,5,5,5]
+  },
+  {
+  "stateName" : "RB__B_R__",
+  "Beads" : [0,0,5,5,0,5,0,5,5]
+  },
+  {
+  "stateName" : "RB__B__R_",
+  "Beads" : [0,0,5,5,0,5,5,0,5]
+  },
+  {
+  "stateName" : "RB__B___R",
+  "Beads" : [0,0,5,5,0,5,5,5,0]
+  },
+  {
+  "stateName" : "RB_R_B___",
+  "Beads" : [0,0,5,0,5,0,5,5,5]
+  },
+  {
+  "stateName" : "RB__RB___",
+  "Beads" : [0,0,5,5,0,0,5,5,5]
+  },
+  {
+  "stateName" : "RB___BR__",
+  "Beads" : [0,0,5,5,5,0,0,5,5]
+  },
+  {
+  "stateName" : "RB___B_R_",
+  "Beads" : [0,0,5,5,5,0,5,0,5]
+  },
+  {
+  "stateName" : "RB___B__R",
+  "Beads" : [0,0,5,5,5,0,5,5,0]
+  },
+  {
+  "stateName" : "RBR____B_",
+  "Beads" : [0,0,0,5,5,5,5,0,5]
+  },
+  {
+  "stateName" : "RB_R___B_",
+  "Beads" : [0,0,5,0,5,5,5,0,5]
+  },
+  {
+  "stateName" : "RB__R__B_",
+  "Beads" : [0,0,5,5,0,5,5,0,5]
+  },
+  {
+  "stateName" : "RB___R_B_",
+  "Beads" : [0,0,5,5,5,0,5,0,5]
+  },
+  {
+  "stateName" : "RB____RB_",
+  "Beads" : [0,0,5,5,5,5,0,0,5]
+  },
+  {
+  "stateName" : "RB_____BR",
+  "Beads" : [0,0,5,5,5,5,5,0,0]
+  },
+  {
+  "stateName" : "_B_RBR___",
+  "Beads" : [5,0,5,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "_B_RB_R__",
+  "Beads" : [5,0,5,0,0,5,0,5,5]
+  },
+  {
+  "stateName" : "_B_RB__R_",
+  "Beads" : [5,0,5,0,0,5,5,0,5]
+  },
+  {
+  "stateName" : "_B_RB___R",
+  "Beads" : [5,0,5,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "_B_RRB___",
+  "Beads" : [5,0,5,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "_B_R_BR__",
+  "Beads" : [5,0,5,0,5,0,0,5,5]
+  },
+  {
+  "stateName" : "_B_R_B_R_",
+  "Beads" : [5,0,5,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "_B_RR__B_",
+  "Beads" : [5,0,5,0,0,5,5,0,5]
+  },
+  {
+  "stateName" : "_B_R_R_B_",
+  "Beads" : [5,0,5,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "_B_BR___R",
+  "Beads" : [5,0,5,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "_B__B_RR_",
+  "Beads" : [5,0,5,5,0,5,0,0,5]
+  },
+  {
+  "stateName" : "_B__B_R_R",
+  "Beads" : [5,0,5,5,0,5,0,5,0]
+  }
+  ],
+  "turn5" : [
+  {
+  "stateName" : "BRBRB____",
+  "Beads" : [0,0,0,0,0,5,5,5,5]
+  },
+  {
+  "stateName" : "BRBR_B___",
+  "Beads" : [0,0,0,0,5,0,5,5,5]
+  },
+  {
+  "stateName" : "BRBR__B__",
+  "Beads" : [0,0,0,0,5,5,0,5,5]
+  },
+  {
+  "stateName" : "BRBR___B_",
+  "Beads" : [0,0,0,0,5,5,5,0,5]
+  },
+  {
+  "stateName" : "BRBR____B",
+  "Beads" : [0,0,0,0,5,5,5,5,0]
+  },
+  {
+  "stateName" : "BRBBR____",
+  "Beads" : [0,0,0,0,0,5,5,5,5]
+  },
+  {
+  "stateName" : "BRB_R_B__",
+  "Beads" : [0,0,0,5,0,5,0,5,5]
+  },
+  {
+  "stateName" : "BRB_R__B_",
+  "Beads" : [0,0,0,5,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BRBB__R__",
+  "Beads" : [0,0,0,0,5,5,0,5,5]
+  },
+  {
+  "stateName" : "BRB_B_R__",
+  "Beads" : [0,0,0,5,0,5,0,5,5]
+  },
+  {
+  "stateName" : "BRB__BR__",
+  "Beads" : [0,0,0,5,5,0,0,5,5]
+  },
+  {
+  "stateName" : "BRB___RB_",
+  "Beads" : [0,0,0,5,5,5,0,0,5]
+  },
+  {
+  "stateName" : "BRB___R_B",
+  "Beads" : [0,0,0,5,5,5,0,5,0]
+  },
+  {
+  "stateName" : "BRBB___R_",
+  "Beads" : [0,0,0,0,5,5,5,0,5]
+  },
+  {
+  "stateName" : "BRB_B__R_",
+  "Beads" : [0,0,0,5,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BRB___BR_",
+  "Beads" : [0,0,0,5,5,5,0,0,5]
+  },
+  {
+  "stateName" : "BRRBB____",
+  "Beads" : [0,0,0,0,0,5,5,5,5]
+  },
+  {
+  "stateName" : "BRRB_B___",
+  "Beads" : [0,0,0,0,5,0,5,5,5]
+  },
+  {
+  "stateName" : "BRRB___B_",
+  "Beads" : [0,0,0,0,5,5,5,0,5]
+  },
+  {
+  "stateName" : "BRRB____B",
+  "Beads" : [0,0,0,0,5,5,5,5,0]
+  },
+  {
+  "stateName" : "BR_BRB___",
+  "Beads" : [0,0,5,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BR_BR__B_",
+  "Beads" : [0,0,5,0,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BR_BR___B",
+  "Beads" : [0,0,5,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "BR_BBR___",
+  "Beads" : [0,0,5,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BR_B_R_B_",
+  "Beads" : [0,0,5,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BR_B_R__B",
+  "Beads" : [0,0,5,0,5,0,5,5,0]
+  },
+  {
+  "stateName" : "BR_BB_R__",
+  "Beads" : [0,0,5,0,0,5,0,5,5]
+  },
+  {
+  "stateName" : "BR_B_BR__",
+  "Beads" : [0,0,5,0,5,0,0,5,5]
+  },
+  {
+  "stateName" : "BR_B__RB_",
+  "Beads" : [0,0,5,0,5,5,0,0,5]
+  },
+  {
+  "stateName" : "BR_B__R_B",
+  "Beads" : [0,0,5,0,5,5,0,5,0]
+  },
+  {
+  "stateName" : "BR_BB__R_",
+  "Beads" : [0,0,5,0,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BR_B_B_R_",
+  "Beads" : [0,0,5,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BR_B___RB",
+  "Beads" : [0,0,5,0,5,5,5,0,0]
+  },
+  {
+  "stateName" : "BR_BB___R",
+  "Beads" : [0,0,5,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "BR_B_B__R",
+  "Beads" : [0,0,5,0,5,0,5,5,0]
+  },
+  {
+  "stateName" : "BR_B___BR",
+  "Beads" : [0,0,5,0,5,5,5,0,0]
+  },
+  {
+  "stateName" : "BRR_BB___",
+  "Beads" : [0,0,0,5,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BRR_B_B__",
+  "Beads" : [0,0,0,5,0,5,0,5,5]
+  },
+  {
+  "stateName" : "BRR_B__B_",
+  "Beads" : [0,0,0,5,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BR_RBB___",
+  "Beads" : [0,0,5,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BR__BRB__",
+  "Beads" : [0,0,5,5,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BR__BR_B_",
+  "Beads" : [0,0,5,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BR__BBR__",
+  "Beads" : [0,0,5,5,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BR__B_RB_",
+  "Beads" : [0,0,5,5,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BR__BB_R_",
+  "Beads" : [0,0,5,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BR__B_BR_",
+  "Beads" : [0,0,5,5,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BR__BB__R",
+  "Beads" : [0,0,5,5,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BR__B_B_R",
+  "Beads" : [0,0,5,5,0,5,0,5,0]
+  },
+  {
+  "stateName" : "BR__B__BR",
+  "Beads" : [0,0,5,5,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BRR__BB__",
+  "Beads" : [0,0,0,5,5,0,0,5,5]
+  },
+  {
+  "stateName" : "BRR__B_B_",
+  "Beads" : [0,0,0,5,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BRR__B__B",
+  "Beads" : [0,0,0,5,5,0,5,5,0]
+  },
+  {
+  "stateName" : "BR_R_B_B_",
+  "Beads" : [0,0,5,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BR_R_B__B",
+  "Beads" : [0,0,5,0,5,0,5,5,0]
+  },
+  {
+  "stateName" : "BR__RBB__",
+  "Beads" : [0,0,5,5,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BR__RB_B_",
+  "Beads" : [0,0,5,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BR__RB__B",
+  "Beads" : [0,0,5,5,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BR___BRB_",
+  "Beads" : [0,0,5,5,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BR___BR_B",
+  "Beads" : [0,0,5,5,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BR___BBR_",
+  "Beads" : [0,0,5,5,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BR___BB_R",
+  "Beads" : [0,0,5,5,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BR___B_BR",
+  "Beads" : [0,0,5,5,5,0,5,0,0]
+  },
+  {
+  "stateName" : "BRR___BB_",
+  "Beads" : [0,0,0,5,5,5,0,0,5]
+  },
+  {
+  "stateName" : "BRR___B_B",
+  "Beads" : [0,0,0,5,5,5,0,5,0]
+  },
+  {
+  "stateName" : "BR__R_BB_",
+  "Beads" : [0,0,5,5,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BR__R_B_B",
+  "Beads" : [0,0,5,5,0,5,0,5,0]
+  },
+  {
+  "stateName" : "BR___RBB_",
+  "Beads" : [0,0,5,5,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BR___RB_B",
+  "Beads" : [0,0,5,5,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BR____BBR",
+  "Beads" : [0,0,5,5,5,5,0,0,0]
+  },
+  {
+  "stateName" : "BRR____BB",
+  "Beads" : [0,0,0,5,5,5,5,0,0]
+  },
+  {
+  "stateName" : "BR__R__BB",
+  "Beads" : [0,0,5,5,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BR____RBB",
+  "Beads" : [0,0,5,5,5,5,0,0,0]
+  },
+  {
+  "stateName" : "BBRBR____",
+  "Beads" : [0,0,0,0,0,5,5,5,5]
+  },
+  {
+  "stateName" : "BBR_RB___",
+  "Beads" : [0,0,0,5,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BBR_R_B__",
+  "Beads" : [0,0,0,5,0,5,0,5,5]
+  },
+  {
+  "stateName" : "BBR_R__B_",
+  "Beads" : [0,0,0,5,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BBR_R___B",
+  "Beads" : [0,0,0,5,0,5,5,5,0]
+  },
+  {
+  "stateName" : "BBRB_R___",
+  "Beads" : [0,0,0,0,5,0,5,5,5]
+  },
+  {
+  "stateName" : "BBR_BR___",
+  "Beads" : [0,0,0,5,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BBR__RB__",
+  "Beads" : [0,0,0,5,5,0,0,5,5]
+  },
+  {
+  "stateName" : "BBR__R_B_",
+  "Beads" : [0,0,0,5,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BBRB__R__",
+  "Beads" : [0,0,0,0,5,5,0,5,5]
+  },
+  {
+  "stateName" : "BBR_B_R__",
+  "Beads" : [0,0,0,5,0,5,0,5,5]
+  },
+  {
+  "stateName" : "BBR__BR__",
+  "Beads" : [0,0,0,5,5,0,0,5,5]
+  },
+  {
+  "stateName" : "BBR___RB_",
+  "Beads" : [0,0,0,5,5,5,0,0,5]
+  },
+  {
+  "stateName" : "BBR___R_B",
+  "Beads" : [0,0,0,5,5,5,0,5,0]
+  },
+  {
+  "stateName" : "BBRB___R_",
+  "Beads" : [0,0,0,0,5,5,5,0,5]
+  },
+  {
+  "stateName" : "BBR_B__R_",
+  "Beads" : [0,0,0,5,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BBR__B_R_",
+  "Beads" : [0,0,0,5,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BBRB____R",
+  "Beads" : [0,0,0,0,5,5,5,5,0]
+  },
+  {
+  "stateName" : "BBR_B___R",
+  "Beads" : [0,0,0,5,0,5,5,5,0]
+  },
+  {
+  "stateName" : "BBR__B__R",
+  "Beads" : [0,0,0,5,5,0,5,5,0]
+  },
+  {
+  "stateName" : "BBR___B_R",
+  "Beads" : [0,0,0,5,5,5,0,5,0]
+  },
+  {
+  "stateName" : "BBR____BR",
+  "Beads" : [0,0,0,5,5,5,5,0,0]
+  },
+  {
+  "stateName" : "B_RBRB___",
+  "Beads" : [0,5,0,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "B_RBR__B_",
+  "Beads" : [0,5,0,0,0,5,5,0,5]
+  },
+  {
+  "stateName" : "B_RBR___B",
+  "Beads" : [0,5,0,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "B_RBBR___",
+  "Beads" : [0,5,0,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "B_RB_R_B_",
+  "Beads" : [0,5,0,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "B_RBB__R_",
+  "Beads" : [0,5,0,0,0,5,5,0,5]
+  },
+  {
+  "stateName" : "B_RB_B_R_",
+  "Beads" : [0,5,0,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "B_RBB___R",
+  "Beads" : [0,5,0,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "B_RB_B__R",
+  "Beads" : [0,5,0,0,5,0,5,5,0]
+  },
+  {
+  "stateName" : "B_RB___BR",
+  "Beads" : [0,5,0,0,5,5,5,0,0]
+  },
+  {
+  "stateName" : "B_R_BRB__",
+  "Beads" : [0,5,0,5,0,0,0,5,5]
+  },
+  {
+  "stateName" : "B_R_BR_B_",
+  "Beads" : [0,5,0,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "B_R_BBR__",
+  "Beads" : [0,5,0,5,0,0,0,5,5]
+  },
+  {
+  "stateName" : "B_R_BB_R_",
+  "Beads" : [0,5,0,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "B_R_BB__R",
+  "Beads" : [0,5,0,5,0,0,5,5,0]
+  },
+  {
+  "stateName" : "B_R_B_B_R",
+  "Beads" : [0,5,0,5,0,5,0,5,0]
+  },
+  {
+  "stateName" : "B_R_B__BR",
+  "Beads" : [0,5,0,5,0,5,5,0,0]
+  },
+  {
+  "stateName" : "B_R_RBB__",
+  "Beads" : [0,5,0,5,0,0,0,5,5]
+  },
+  {
+  "stateName" : "B_R_RB_B_",
+  "Beads" : [0,5,0,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "B_R__BRB_",
+  "Beads" : [0,5,0,5,5,0,0,0,5]
+  },
+  {
+  "stateName" : "B_R__BB_R",
+  "Beads" : [0,5,0,5,5,0,0,5,0]
+  },
+  {
+  "stateName" : "B_R__B_BR",
+  "Beads" : [0,5,0,5,5,0,5,0,0]
+  },
+  {
+  "stateName" : "B_R_R_BB_",
+  "Beads" : [0,5,0,5,0,5,0,0,5]
+  },
+  {
+  "stateName" : "B_R_R_B_B",
+  "Beads" : [0,5,0,5,0,5,0,5,0]
+  },
+  {
+  "stateName" : "B_R__RBB_",
+  "Beads" : [0,5,0,5,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BB_BRR___",
+  "Beads" : [0,0,5,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BB__RRB__",
+  "Beads" : [0,0,5,5,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BB__RR_B_",
+  "Beads" : [0,0,5,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BB__RB_R_",
+  "Beads" : [0,0,5,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BB_BR___R",
+  "Beads" : [0,0,5,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "BB__RB__R",
+  "Beads" : [0,0,5,5,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BB__R__BR",
+  "Beads" : [0,0,5,5,0,5,5,0,0]
+  },
+  {
+  "stateName" : "B___RB_BR",
+  "Beads" : [0,5,5,5,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BB_B_R_R_",
+  "Beads" : [0,0,5,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BB__BR_R_",
+  "Beads" : [0,0,5,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BB_B_R__R",
+  "Beads" : [0,0,5,0,5,0,5,5,0]
+  },
+  {
+  "stateName" : "BB__BR__R",
+  "Beads" : [0,0,5,5,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BB___R_BR",
+  "Beads" : [0,0,5,5,5,0,5,0,0]
+  },
+  {
+  "stateName" : "B__BBR__R",
+  "Beads" : [0,5,5,0,0,0,5,5,0]
+  },
+  {
+  "stateName" : "B__B_R_BR",
+  "Beads" : [0,5,5,0,5,0,5,0,0]
+  },
+  {
+  "stateName" : "B___BR_BR",
+  "Beads" : [0,5,5,5,0,0,5,0,0]
+  },
+  {
+  "stateName" : "RBRBB____",
+  "Beads" : [0,0,0,0,0,5,5,5,5]
+  },
+  {
+  "stateName" : "RBRB_B___",
+  "Beads" : [0,0,0,0,5,0,5,5,5]
+  },
+  {
+  "stateName" : "RBRB___B_",
+  "Beads" : [0,0,0,0,5,5,5,0,5]
+  },
+  {
+  "stateName" : "RB_BRB___",
+  "Beads" : [0,0,5,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "RB_BBR___",
+  "Beads" : [0,0,5,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "RB_B_R_B_",
+  "Beads" : [0,0,5,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "RB_BB___R",
+  "Beads" : [0,0,5,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "RB_B_B__R",
+  "Beads" : [0,0,5,0,5,0,5,5,0]
+  },
+  {
+  "stateName" : "RB_RBB___",
+  "Beads" : [0,0,5,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "RB__BBR__",
+  "Beads" : [0,0,5,5,0,0,0,5,5]
+  },
+  {
+  "stateName" : "RB__BB_R_",
+  "Beads" : [0,0,5,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "RB__BB__R",
+  "Beads" : [0,0,5,5,0,0,5,5,0]
+  },
+  {
+  "stateName" : "RB_R_B_B_",
+  "Beads" : [0,0,5,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "RB__RB_B_",
+  "Beads" : [0,0,5,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "RB___BRB_",
+  "Beads" : [0,0,5,5,5,0,0,0,5]
+  },
+  {
+  "stateName" : "_B_RBBR__",
+  "Beads" : [5,0,5,0,0,0,0,5,5]
+  },
+  {
+  "stateName" : "_B_RBB_R_",
+  "Beads" : [5,0,5,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "_B_RRB_B_",
+  "Beads" : [5,0,5,0,0,0,5,0,5]
+  }
+  ],
+  "turn6" : [
+  {
+  "stateName" : "BRBRBR___",
+  "Beads" : [0,0,0,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BRBRB_R__",
+  "Beads" : [0,0,0,0,0,5,0,5,5]
+  },
+  {
+  "stateName" : "BRBRB__R_",
+  "Beads" : [0,0,0,0,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BRBRB___R",
+  "Beads" : [0,0,0,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "BRBRRB___",
+  "Beads" : [0,0,0,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BRBR_BR__",
+  "Beads" : [0,0,0,0,5,0,0,5,5]
+  },
+  {
+  "stateName" : "BRBR_B_R_",
+  "Beads" : [0,0,0,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BRBR_B__R",
+  "Beads" : [0,0,0,0,5,0,5,5,0]
+  },
+  {
+  "stateName" : "BRBRR_B__",
+  "Beads" : [0,0,0,0,0,5,0,5,5]
+  },
+  {
+  "stateName" : "BRBR_RB__",
+  "Beads" : [0,0,0,0,5,0,0,5,5]
+  },
+  {
+  "stateName" : "BRBR__B_R",
+  "Beads" : [0,0,0,0,5,5,0,5,0]
+  },
+  {
+  "stateName" : "BRBRR__B_",
+  "Beads" : [0,0,0,0,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BRBR_R_B_",
+  "Beads" : [0,0,0,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BRBR__RB_",
+  "Beads" : [0,0,0,0,5,5,0,0,5]
+  },
+  {
+  "stateName" : "BRBR___BR",
+  "Beads" : [0,0,0,0,5,5,5,0,0]
+  },
+  {
+  "stateName" : "BRBRR___B",
+  "Beads" : [0,0,0,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "BRBR__R_B",
+  "Beads" : [0,0,0,0,5,5,0,5,0]
+  },
+  {
+  "stateName" : "BRBR___RB",
+  "Beads" : [0,0,0,0,5,5,5,0,0]
+  },
+  {
+  "stateName" : "BRBBR_R__",
+  "Beads" : [0,0,0,0,0,5,0,5,5]
+  },
+  {
+  "stateName" : "BRBBR___R",
+  "Beads" : [0,0,0,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "BRB_R_B_R",
+  "Beads" : [0,0,0,5,0,5,0,5,0]
+  },
+  {
+  "stateName" : "BRB_R_RB_",
+  "Beads" : [0,0,0,5,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BRBB__RR_",
+  "Beads" : [0,0,0,0,5,5,0,0,5]
+  },
+  {
+  "stateName" : "BRBB__R_R",
+  "Beads" : [0,0,0,0,5,5,0,5,0]
+  },
+  {
+  "stateName" : "BRB_B_RR_",
+  "Beads" : [0,0,0,5,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BRB_B_R_R",
+  "Beads" : [0,0,0,5,0,5,0,5,0]
+  },
+  {
+  "stateName" : "BRB__BRR_",
+  "Beads" : [0,0,0,5,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BRB___RBR",
+  "Beads" : [0,0,0,5,5,5,0,0,0]
+  },
+  {
+  "stateName" : "BRB___RRB",
+  "Beads" : [0,0,0,5,5,5,0,0,0]
+  },
+  {
+  "stateName" : "BRRBBR___",
+  "Beads" : [0,0,0,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BRRBB_R__",
+  "Beads" : [0,0,0,0,0,5,0,5,5]
+  },
+  {
+  "stateName" : "BRRBB__R_",
+  "Beads" : [0,0,0,0,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BRRBB___R",
+  "Beads" : [0,0,0,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "BRRBRB___",
+  "Beads" : [0,0,0,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BRRB_BR__",
+  "Beads" : [0,0,0,0,5,0,0,5,5]
+  },
+  {
+  "stateName" : "BRRB_B_R_",
+  "Beads" : [0,0,0,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BRRB_B__R",
+  "Beads" : [0,0,0,0,5,0,5,5,0]
+  },
+  {
+  "stateName" : "BRRBR__B_",
+  "Beads" : [0,0,0,0,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BRRB_R_B_",
+  "Beads" : [0,0,0,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BRRB__RB_",
+  "Beads" : [0,0,0,0,5,5,0,0,5]
+  },
+  {
+  "stateName" : "BRRB___BR",
+  "Beads" : [0,0,0,0,5,5,5,0,0]
+  },
+  {
+  "stateName" : "BRRBR___B",
+  "Beads" : [0,0,0,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "BRRB_R__B",
+  "Beads" : [0,0,0,0,5,0,5,5,0]
+  },
+  {
+  "stateName" : "BRRB__R_B",
+  "Beads" : [0,0,0,0,5,5,0,5,0]
+  },
+  {
+  "stateName" : "BRRB___RB",
+  "Beads" : [0,0,0,0,5,5,5,0,0]
+  },
+  {
+  "stateName" : "BR_BRBR__",
+  "Beads" : [0,0,5,0,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BR_BRB__R",
+  "Beads" : [0,0,5,0,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BR_BRR_B_",
+  "Beads" : [0,0,5,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BR_BR_RB_",
+  "Beads" : [0,0,5,0,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BR_BR__BR",
+  "Beads" : [0,0,5,0,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BR_BRR__B",
+  "Beads" : [0,0,5,0,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BR_BR_R_B",
+  "Beads" : [0,0,5,0,0,5,0,5,0]
+  },
+  {
+  "stateName" : "BR_BBRR__",
+  "Beads" : [0,0,5,0,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BR_BBR_R_",
+  "Beads" : [0,0,5,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BR_BBR__R",
+  "Beads" : [0,0,5,0,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BR_B_RRB_",
+  "Beads" : [0,0,5,0,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BR_B_R_BR",
+  "Beads" : [0,0,5,0,5,0,5,0,0]
+  },
+  {
+  "stateName" : "BR_B_RR_B",
+  "Beads" : [0,0,5,0,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BR_B_R_RB",
+  "Beads" : [0,0,5,0,5,0,5,0,0]
+  },
+  {
+  "stateName" : "BR_BB_RR_",
+  "Beads" : [0,0,5,0,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BR_BB_R_R",
+  "Beads" : [0,0,5,0,0,5,0,5,0]
+  },
+  {
+  "stateName" : "BR_B_BRR_",
+  "Beads" : [0,0,5,0,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BR_B_BR_R",
+  "Beads" : [0,0,5,0,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BR_B__RBR",
+  "Beads" : [0,0,5,0,5,5,0,0,0]
+  },
+  {
+  "stateName" : "BR_B__RRB",
+  "Beads" : [0,0,5,0,5,5,0,0,0]
+  },
+  {
+  "stateName" : "BR_BB__RR",
+  "Beads" : [0,0,5,0,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BR_B_B_RR",
+  "Beads" : [0,0,5,0,5,0,5,0,0]
+  },
+  {
+  "stateName" : "BRRRBB___",
+  "Beads" : [0,0,0,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BRR_BBR__",
+  "Beads" : [0,0,0,5,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BRR_BB_R_",
+  "Beads" : [0,0,0,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BRR_BB__R",
+  "Beads" : [0,0,0,5,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BRR_BRB__",
+  "Beads" : [0,0,0,5,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BRR_B_BR_",
+  "Beads" : [0,0,0,5,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BRR_B_B_R",
+  "Beads" : [0,0,0,5,0,5,0,5,0]
+  },
+  {
+  "stateName" : "BRRRB__B_",
+  "Beads" : [0,0,0,0,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BRR_BR_B_",
+  "Beads" : [0,0,0,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BRR_B_RB_",
+  "Beads" : [0,0,0,5,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BRR_B__BR",
+  "Beads" : [0,0,0,5,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BR_RBB_R_",
+  "Beads" : [0,0,5,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BR_RBB__R",
+  "Beads" : [0,0,5,0,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BR__BRBR_",
+  "Beads" : [0,0,5,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BR__BRB_R",
+  "Beads" : [0,0,5,5,0,0,0,5,0]
+  },
+  {
+  "stateName" : "BR__BRRB_",
+  "Beads" : [0,0,5,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BR__BR_BR",
+  "Beads" : [0,0,5,5,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BR__BBRR_",
+  "Beads" : [0,0,5,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BR__BBR_R",
+  "Beads" : [0,0,5,5,0,0,0,5,0]
+  },
+  {
+  "stateName" : "BR__B_RBR",
+  "Beads" : [0,0,5,5,0,5,0,0,0]
+  },
+  {
+  "stateName" : "BR__BB_RR",
+  "Beads" : [0,0,5,5,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BRR_RBB__",
+  "Beads" : [0,0,0,5,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BRR__BBR_",
+  "Beads" : [0,0,0,5,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BRR__BB_R",
+  "Beads" : [0,0,0,5,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BRRR_B_B_",
+  "Beads" : [0,0,0,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BRR_RB_B_",
+  "Beads" : [0,0,0,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BRR__BRB_",
+  "Beads" : [0,0,0,5,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BRR__B_BR",
+  "Beads" : [0,0,0,5,5,0,5,0,0]
+  },
+  {
+  "stateName" : "BRRR_B__B",
+  "Beads" : [0,0,0,0,5,0,5,5,0]
+  },
+  {
+  "stateName" : "BRR_RB__B",
+  "Beads" : [0,0,0,5,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BRR__BR_B",
+  "Beads" : [0,0,0,5,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BR_RRB_B_",
+  "Beads" : [0,0,5,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BR_R_B_BR",
+  "Beads" : [0,0,5,0,5,0,5,0,0]
+  },
+  {
+  "stateName" : "BR_RRB__B",
+  "Beads" : [0,0,5,0,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BR_R_BR_B",
+  "Beads" : [0,0,5,0,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BR__RBB_R",
+  "Beads" : [0,0,5,5,0,0,0,5,0]
+  },
+  {
+  "stateName" : "BR__RBRB_",
+  "Beads" : [0,0,5,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BR__RB_BR",
+  "Beads" : [0,0,5,5,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BR__RBR_B",
+  "Beads" : [0,0,5,5,0,0,0,5,0]
+  },
+  {
+  "stateName" : "BR___BRBR",
+  "Beads" : [0,0,5,5,5,0,0,0,0]
+  },
+  {
+  "stateName" : "BRR_R_BB_",
+  "Beads" : [0,0,0,5,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BRR__RBB_",
+  "Beads" : [0,0,0,5,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BRR___BBR",
+  "Beads" : [0,0,0,5,5,5,0,0,0]
+  },
+  {
+  "stateName" : "BRR_R_B_B",
+  "Beads" : [0,0,0,5,0,5,0,5,0]
+  },
+  {
+  "stateName" : "BRR__RB_B",
+  "Beads" : [0,0,0,5,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BR__RRBB_",
+  "Beads" : [0,0,5,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BR__R_BBR",
+  "Beads" : [0,0,5,5,0,5,0,0,0]
+  },
+  {
+  "stateName" : "BR__RRB_B",
+  "Beads" : [0,0,5,5,0,0,0,5,0]
+  },
+  {
+  "stateName" : "BR___RBBR",
+  "Beads" : [0,0,5,5,5,0,0,0,0]
+  },
+  {
+  "stateName" : "BRR_R__BB",
+  "Beads" : [0,0,0,5,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BRR___RBB",
+  "Beads" : [0,0,0,5,5,5,0,0,0]
+  },
+  {
+  "stateName" : "BR__R_RBB",
+  "Beads" : [0,0,5,5,0,5,0,0,0]
+  },
+  {
+  "stateName" : "BBRBRR___",
+  "Beads" : [0,0,0,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "BBRBR__R_",
+  "Beads" : [0,0,0,0,0,5,5,0,5]
+  },
+  {
+  "stateName" : "BBRBR___R",
+  "Beads" : [0,0,0,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "BBR_RB_R_",
+  "Beads" : [0,0,0,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BBR_RB__R",
+  "Beads" : [0,0,0,5,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BBR_RRB__",
+  "Beads" : [0,0,0,5,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BBR_R_B_R",
+  "Beads" : [0,0,0,5,0,5,0,5,0]
+  },
+  {
+  "stateName" : "BBR_RR_B_",
+  "Beads" : [0,0,0,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BBR_R__BR",
+  "Beads" : [0,0,0,5,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BBRB_RR__",
+  "Beads" : [0,0,0,0,5,0,0,5,5]
+  },
+  {
+  "stateName" : "BBRB_R_R_",
+  "Beads" : [0,0,0,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "BBR_BRR__",
+  "Beads" : [0,0,0,5,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BBR_BR_R_",
+  "Beads" : [0,0,0,5,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BBR__RRB_",
+  "Beads" : [0,0,0,5,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BBRB__R_R",
+  "Beads" : [0,0,0,0,5,5,0,5,0]
+  },
+  {
+  "stateName" : "BBR_B_RR_",
+  "Beads" : [0,0,0,5,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BBR_B_R_R",
+  "Beads" : [0,0,0,5,0,5,0,5,0]
+  },
+  {
+  "stateName" : "BBR__BRR_",
+  "Beads" : [0,0,0,5,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BBR__BR_R",
+  "Beads" : [0,0,0,5,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BBR___RBR",
+  "Beads" : [0,0,0,5,5,5,0,0,0]
+  },
+  {
+  "stateName" : "BBRB___RR",
+  "Beads" : [0,0,0,0,5,5,5,0,0]
+  },
+  {
+  "stateName" : "BBR_B__RR",
+  "Beads" : [0,0,0,5,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BBR__B_RR",
+  "Beads" : [0,0,0,5,5,0,5,0,0]
+  },
+  {
+  "stateName" : "B_RBRB_R_",
+  "Beads" : [0,5,0,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "B_RBRB__R",
+  "Beads" : [0,5,0,0,0,0,5,5,0]
+  },
+  {
+  "stateName" : "B_RBRR_B_",
+  "Beads" : [0,5,0,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "B_RBR__BR",
+  "Beads" : [0,5,0,0,0,5,5,0,0]
+  },
+  {
+  "stateName" : "B_RBBR_R_",
+  "Beads" : [0,5,0,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "B_RBB__RR",
+  "Beads" : [0,5,0,0,0,5,5,0,0]
+  },
+  {
+  "stateName" : "B_RB_B_RR",
+  "Beads" : [0,5,0,0,5,0,5,0,0]
+  },
+  {
+  "stateName" : "B_R_BRRB_",
+  "Beads" : [0,5,0,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "B_R_BBR_R",
+  "Beads" : [0,5,0,5,0,0,0,5,0]
+  },
+  {
+  "stateName" : "B_R_BB_RR",
+  "Beads" : [0,5,0,5,0,0,5,0,0]
+  },
+  {
+  "stateName" : "B_R_RBB_R",
+  "Beads" : [0,5,0,5,0,0,0,5,0]
+  },
+  {
+  "stateName" : "B_R_RB_BR",
+  "Beads" : [0,5,0,5,0,0,5,0,0]
+  },
+  {
+  "stateName" : "B_R__BRBR",
+  "Beads" : [0,5,0,5,5,0,0,0,0]
+  },
+  {
+  "stateName" : "B_R_RRBB_",
+  "Beads" : [0,5,0,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BB_BRR_R_",
+  "Beads" : [0,0,5,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BB_BRR__R",
+  "Beads" : [0,0,5,0,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BB__RR_BR",
+  "Beads" : [0,0,5,5,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BB__RB_RR",
+  "Beads" : [0,0,5,5,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BB_B_R_RR",
+  "Beads" : [0,0,5,0,5,0,5,0,0]
+  },
+  {
+  "stateName" : "BB__BR_RR",
+  "Beads" : [0,0,5,5,0,0,5,0,0]
+  },
+  {
+  "stateName" : "RBRBBR___",
+  "Beads" : [0,0,0,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "RBRBB_R__",
+  "Beads" : [0,0,0,0,0,5,0,5,5]
+  },
+  {
+  "stateName" : "RBRBB__R_",
+  "Beads" : [0,0,0,0,0,5,5,0,5]
+  },
+  {
+  "stateName" : "RBRBB___R",
+  "Beads" : [0,0,0,0,0,5,5,5,0]
+  },
+  {
+  "stateName" : "RBRBRB___",
+  "Beads" : [0,0,0,0,0,0,5,5,5]
+  },
+  {
+  "stateName" : "RBRB_BR__",
+  "Beads" : [0,0,0,0,5,0,0,5,5]
+  },
+  {
+  "stateName" : "RBRB_B_R_",
+  "Beads" : [0,0,0,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "RBRBR__B_",
+  "Beads" : [0,0,0,0,0,5,5,0,5]
+  },
+  {
+  "stateName" : "RBRB_R_B_",
+  "Beads" : [0,0,0,0,5,0,5,0,5]
+  },
+  {
+  "stateName" : "RBRB___BR",
+  "Beads" : [0,0,0,0,5,5,5,0,0]
+  },
+  {
+  "stateName" : "RB_BRB_R_",
+  "Beads" : [0,0,5,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "RB_BBR_R_",
+  "Beads" : [0,0,5,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "RB_BBR__R",
+  "Beads" : [0,0,5,0,0,0,5,5,0]
+  },
+  {
+  "stateName" : "RB_B_R_BR",
+  "Beads" : [0,0,5,0,5,0,5,0,0]
+  },
+  {
+  "stateName" : "RB_RBB_R_",
+  "Beads" : [0,0,5,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "RB_RBB__R",
+  "Beads" : [0,0,5,0,0,0,5,5,0]
+  },
+  {
+  "stateName" : "RB__BBRR_",
+  "Beads" : [0,0,5,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "RB__BBR_R",
+  "Beads" : [0,0,5,5,0,0,0,5,0]
+  },
+  {
+  "stateName" : "RB_RRB_B_",
+  "Beads" : [0,0,5,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "RB__RBRB_",
+  "Beads" : [0,0,5,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "_B_RBBRR_",
+  "Beads" : [5,0,5,0,0,0,0,0,5]
+  }
+  ],
+  "turn7" : [
+  {
+  "stateName" : "BRBRBR_B_",
+  "Beads" : [0,0,0,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BRBRBBR__",
+  "Beads" : [0,0,0,0,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BRBRB_RB_",
+  "Beads" : [0,0,0,0,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BRBRBB_R_",
+  "Beads" : [0,0,0,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BRBRBB__R",
+  "Beads" : [0,0,0,0,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BRBRB__BR",
+  "Beads" : [0,0,0,0,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BRBRRBB__",
+  "Beads" : [0,0,0,0,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BRBRRB_B_",
+  "Beads" : [0,0,0,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BRBR_BRB_",
+  "Beads" : [0,0,0,0,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BRBR_BBR_",
+  "Beads" : [0,0,0,0,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BRBR_BB_R",
+  "Beads" : [0,0,0,0,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BRBR_B_BR",
+  "Beads" : [0,0,0,0,5,0,5,0,0]
+  },
+  {
+  "stateName" : "BRBRR_B_B",
+  "Beads" : [0,0,0,0,0,5,0,5,0]
+  },
+  {
+  "stateName" : "BRBR_RB_B",
+  "Beads" : [0,0,0,0,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BRBRR__BB",
+  "Beads" : [0,0,0,0,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BRBR__RBB",
+  "Beads" : [0,0,0,0,5,5,0,0,0]
+  },
+  {
+  "stateName" : "BRBBRBR__",
+  "Beads" : [0,0,0,0,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BRBBR_RB_",
+  "Beads" : [0,0,0,0,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BRBBR_R_B",
+  "Beads" : [0,0,0,0,0,5,0,5,0]
+  },
+  {
+  "stateName" : "BRBBR__BR",
+  "Beads" : [0,0,0,0,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BRB_R_BBR",
+  "Beads" : [0,0,0,5,0,5,0,0,0]
+  },
+  {
+  "stateName" : "BRBBB_RR_",
+  "Beads" : [0,0,0,0,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BRBB_BRR_",
+  "Beads" : [0,0,0,0,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BRBB__RRB",
+  "Beads" : [0,0,0,0,5,5,0,0,0]
+  },
+  {
+  "stateName" : "BRBBB_R_R",
+  "Beads" : [0,0,0,0,0,5,0,5,0]
+  },
+  {
+  "stateName" : "BRBB_BR_R",
+  "Beads" : [0,0,0,0,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BRBB__RBR",
+  "Beads" : [0,0,0,0,5,5,0,0,0]
+  },
+  {
+  "stateName" : "BRB_BBRR_",
+  "Beads" : [0,0,0,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BRB_B_RBR",
+  "Beads" : [0,0,0,5,0,5,0,0,0]
+  },
+  {
+  "stateName" : "BRRBBR_B_",
+  "Beads" : [0,0,0,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BRRBB_RB_",
+  "Beads" : [0,0,0,0,0,5,0,0,5]
+  },
+  {
+  "stateName" : "BRRBB__BR",
+  "Beads" : [0,0,0,0,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BRRBRB_B_",
+  "Beads" : [0,0,0,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BRRBRB__B",
+  "Beads" : [0,0,0,0,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BRRB_BRB_",
+  "Beads" : [0,0,0,0,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BRRB_BR_B",
+  "Beads" : [0,0,0,0,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BRRB_B_RB",
+  "Beads" : [0,0,0,0,5,0,5,0,0]
+  },
+  {
+  "stateName" : "BRRB_B_BR",
+  "Beads" : [0,0,0,0,5,0,5,0,0]
+  },
+  {
+  "stateName" : "BRRBR__BB",
+  "Beads" : [0,0,0,0,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BRRB_R_BB",
+  "Beads" : [0,0,0,0,5,0,5,0,0]
+  },
+  {
+  "stateName" : "BRRB__RBB",
+  "Beads" : [0,0,0,0,5,5,0,0,0]
+  },
+  {
+  "stateName" : "BR_BRBRB_",
+  "Beads" : [0,0,5,0,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BR_BRBR_B",
+  "Beads" : [0,0,5,0,0,0,0,5,0]
+  },
+  {
+  "stateName" : "BR_BRB_BR",
+  "Beads" : [0,0,5,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BR_BRR_BB",
+  "Beads" : [0,0,5,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BR_BR_RBB",
+  "Beads" : [0,0,5,0,0,5,0,0,0]
+  },
+  {
+  "stateName" : "BR_BBRRB_",
+  "Beads" : [0,0,5,0,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BR_BBR_BR",
+  "Beads" : [0,0,5,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BR_B_RRBB",
+  "Beads" : [0,0,5,0,5,0,0,0,0]
+  },
+  {
+  "stateName" : "BR_BB_RBR",
+  "Beads" : [0,0,5,0,0,5,0,0,0]
+  },
+  {
+  "stateName" : "BR_B_BRBR",
+  "Beads" : [0,0,5,0,5,0,0,0,0]
+  },
+  {
+  "stateName" : "BRRRBB_B_",
+  "Beads" : [0,0,0,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BRR_BBRB_",
+  "Beads" : [0,0,0,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BRR_BBBR_",
+  "Beads" : [0,0,0,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BRR_BBB_R",
+  "Beads" : [0,0,0,5,0,0,0,5,0]
+  },
+  {
+  "stateName" : "BRR_BB_BR",
+  "Beads" : [0,0,0,5,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BRR_BRBB_",
+  "Beads" : [0,0,0,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BRR_B_BBR",
+  "Beads" : [0,0,0,5,0,5,0,0,0]
+  },
+  {
+  "stateName" : "BR_RBB_BR",
+  "Beads" : [0,0,5,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BR__BRBBR",
+  "Beads" : [0,0,5,5,0,0,0,0,0]
+  },
+  {
+  "stateName" : "BR__BBRBR",
+  "Beads" : [0,0,5,5,0,0,0,0,0]
+  },
+  {
+  "stateName" : "BRR_RBBB_",
+  "Beads" : [0,0,0,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BRR_RBB_B",
+  "Beads" : [0,0,0,5,0,0,0,5,0]
+  },
+  {
+  "stateName" : "BRR__BBBR",
+  "Beads" : [0,0,0,5,5,0,0,0,0]
+  },
+  {
+  "stateName" : "BRRR_B_BB",
+  "Beads" : [0,0,0,0,5,0,5,0,0]
+  },
+  {
+  "stateName" : "BRR_RB_BB",
+  "Beads" : [0,0,0,5,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BRR__BRBB",
+  "Beads" : [0,0,0,5,5,0,0,0,0]
+  },
+  {
+  "stateName" : "BR_RRB_BB",
+  "Beads" : [0,0,5,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BR__RBBBR",
+  "Beads" : [0,0,5,5,0,0,0,0,0]
+  },
+  {
+  "stateName" : "BR__RBRBB",
+  "Beads" : [0,0,5,5,0,0,0,0,0]
+  },
+  {
+  "stateName" : "BBRBRR_B_",
+  "Beads" : [0,0,0,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BBRBRB_R_",
+  "Beads" : [0,0,0,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BBRBRB__R",
+  "Beads" : [0,0,0,0,0,0,5,5,0]
+  },
+  {
+  "stateName" : "BBRBR__BR",
+  "Beads" : [0,0,0,0,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BBR_RBB_R",
+  "Beads" : [0,0,0,5,0,0,0,5,0]
+  },
+  {
+  "stateName" : "BBR_RB_BR",
+  "Beads" : [0,0,0,5,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BBR_RRBB_",
+  "Beads" : [0,0,0,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BBR_R_BBR",
+  "Beads" : [0,0,0,5,0,5,0,0,0]
+  },
+  {
+  "stateName" : "BBRBBRR__",
+  "Beads" : [0,0,0,0,0,0,0,5,5]
+  },
+  {
+  "stateName" : "BBRB_RRB_",
+  "Beads" : [0,0,0,0,5,0,0,0,5]
+  },
+  {
+  "stateName" : "BBRBBR_R_",
+  "Beads" : [0,0,0,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "BBRBB_R_R",
+  "Beads" : [0,0,0,0,0,5,0,5,0]
+  },
+  {
+  "stateName" : "BBRB_BR_R",
+  "Beads" : [0,0,0,0,5,0,0,5,0]
+  },
+  {
+  "stateName" : "BBR_BBRR_",
+  "Beads" : [0,0,0,5,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BBR_BBR_R",
+  "Beads" : [0,0,0,5,0,0,0,5,0]
+  },
+  {
+  "stateName" : "BBR__BRBR",
+  "Beads" : [0,0,0,5,5,0,0,0,0]
+  },
+  {
+  "stateName" : "BBRBB__RR",
+  "Beads" : [0,0,0,0,0,5,5,0,0]
+  },
+  {
+  "stateName" : "BBRB_B_RR",
+  "Beads" : [0,0,0,0,5,0,5,0,0]
+  },
+  {
+  "stateName" : "BBR_BB_RR",
+  "Beads" : [0,0,0,5,0,0,5,0,0]
+  },
+  {
+  "stateName" : "B_RBRB_BR",
+  "Beads" : [0,5,0,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "B_R_BBRBR",
+  "Beads" : [0,5,0,5,0,0,0,0,0]
+  },
+  {
+  "stateName" : "BB_BRR_BR",
+  "Beads" : [0,0,5,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BB_BBR_RR",
+  "Beads" : [0,0,5,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "RBRBRB_B_",
+  "Beads" : [0,0,0,0,0,0,5,0,5]
+  },
+  {
+  "stateName" : "RBRB_BRB_",
+  "Beads" : [0,0,0,0,5,0,0,0,5]
+  }
+  ],
+  "turn8" : [
+  {
+  "stateName" : "BRBRBRRB_",
+  "Beads" : [0,0,0,0,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BRBRBBRR_",
+  "Beads" : [0,0,0,0,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BRBRBBR_R",
+  "Beads" : [0,0,0,0,0,0,0,5,0]
+  },
+  {
+  "stateName" : "BRBRB_RBR",
+  "Beads" : [0,0,0,0,0,5,0,0,0]
+  },
+  {
+  "stateName" : "BRBRBB_RR",
+  "Beads" : [0,0,0,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BRBRRBB_R",
+  "Beads" : [0,0,0,0,0,0,0,5,0]
+  },
+  {
+  "stateName" : "BRBRRBRB_",
+  "Beads" : [0,0,0,0,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BRBRRB_BR",
+  "Beads" : [0,0,0,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BRBR_BRBR",
+  "Beads" : [0,0,0,0,5,0,0,0,0]
+  },
+  {
+  "stateName" : "BRBR_BBRR",
+  "Beads" : [0,0,0,0,5,0,0,0,0]
+  },
+  {
+  "stateName" : "BRBR_RBRB",
+  "Beads" : [0,0,0,0,5,0,0,0,0]
+  },
+  {
+  "stateName" : "BRBRR_RBB",
+  "Beads" : [0,0,0,0,0,5,0,0,0]
+  },
+  {
+  "stateName" : "BRBBRBR_R",
+  "Beads" : [0,0,0,0,0,0,0,5,0]
+  },
+  {
+  "stateName" : "BRBBR_RBR",
+  "Beads" : [0,0,0,0,0,5,0,0,0]
+  },
+  {
+  "stateName" : "BRRBBRRB_",
+  "Beads" : [0,0,0,0,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BRRBB_RBR",
+  "Beads" : [0,0,0,0,0,5,0,0,0]
+  },
+  {
+  "stateName" : "BRRBRB_BR",
+  "Beads" : [0,0,0,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BRRB_BRBR",
+  "Beads" : [0,0,0,0,5,0,0,0,0]
+  },
+  {
+  "stateName" : "BRRB_BRRB",
+  "Beads" : [0,0,0,0,5,0,0,0,0]
+  },
+  {
+  "stateName" : "BRRBRR_BB",
+  "Beads" : [0,0,0,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BRRB_RRBB",
+  "Beads" : [0,0,0,0,5,0,0,0,0]
+  },
+  {
+  "stateName" : "BR_BRBRBR",
+  "Beads" : [0,0,5,0,0,0,0,0,0]
+  },
+  {
+  "stateName" : "BR_BRRRBB",
+  "Beads" : [0,0,5,0,0,0,0,0,0]
+  },
+  {
+  "stateName" : "BR_BBRRBR",
+  "Beads" : [0,0,5,0,0,0,0,0,0]
+  },
+  {
+  "stateName" : "BRRRBBRB_",
+  "Beads" : [0,0,0,0,0,0,0,0,5]
+  },
+  {
+  "stateName" : "BRRRBB_BR",
+  "Beads" : [0,0,0,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BRR_BBRBR",
+  "Beads" : [0,0,0,5,0,0,0,0,0]
+  },
+  {
+  "stateName" : "BRR_BBBRR",
+  "Beads" : [0,0,0,5,0,0,0,0,0]
+  },
+  {
+  "stateName" : "BRR_RBBBR",
+  "Beads" : [0,0,0,5,0,0,0,0,0]
+  },
+  {
+  "stateName" : "BRRRRB_BB",
+  "Beads" : [0,0,0,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BRRR_BRBB",
+  "Beads" : [0,0,0,0,5,0,0,0,0]
+  },
+  {
+  "stateName" : "BBRBRB_RR",
+  "Beads" : [0,0,0,0,0,0,5,0,0]
+  },
+  {
+  "stateName" : "BBRBBRRR_",
+  "Beads" : [0,0,0,0,0,0,0,0,5]
+  },
+  {
+  "stateName" : "RBRB_BRBR",
+  "Beads" : [0,0,0,0,5,0,0,0,0]
+  }
+  ],
+  "states" : [
+  1,
+  3,
+  12,
+  38,
+  108,
+  153,
+  183,
+  95,
+  34
+  ]
+  }

@@ -1,26 +1,28 @@
 // elements
-gameContainer = document.getElementById("game-container");
-playerColor = document.getElementById("player-color");
-gameMessage = document.getElementById("game-message");
+const gameContainer = document.getElementById("game-container");
+const playerColor = document.getElementById("player-color");
+const gameMessage = document.getElementById("game-message");
+const startGameBlue = document.getElementById("start-game-blue");
+const startGameRed = document.getElementById("start-game-red");
 
 // arrays
 const playerNames = ["Blue", "Red"];
 const bigboard = [0, 0, 0, 0, 0, 0, 0, 0, 0]; // 0: black, 1: blue, 2: red, 3: yellow(draw)
-const smallboard0 = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-const smallboard1 = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-const smallboard2 = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-const smallboard3 = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-const smallboard4 = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-const smallboard5 = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-const smallboard6 = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-const smallboard7 = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-const smallboard8 = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-const smallboards = [smallboard0, smallboard1, smallboard2, smallboard3, smallboard4, smallboard5, smallboard6, smallboard7, smallboard8];
+const positions = [0, 0, 0, 0, 0];
+const rotations = [0, 0, 0, 0, 0];
+const aichoices = [0, 0, 0, 0, 0];
 
 // other variables
 var currentPlayer = 0; // 0: blue, 1: red;
 var currentBigCell = -1; // -1: any, 0-8: specific
+var turnNo = 0;
 var gameOngoing = true;
+var aiOn = false;
+
+// load MENACE
+fetch('./MENACE.json')
+  .then((response) => response.json())
+  .then((MENACE) => console.log(MENACE["states"]));
 
 // switch players
 function switchPlayer() {
@@ -48,6 +50,17 @@ function clickBigCell(cell) {
 
   // check if valid move
   if (checkValid(big, small)) {
+    // update turnNo
+    turnNo++;
+
+    // disable ai buttons
+    if (turnNo > 0) {
+      startGameBlue.disabled = true;
+    }
+    if (turnNo > 1) {
+      startGameRed.disabled = true;
+    }
+
     // change value of bigboard[small]
     bigboard[big] = currentPlayer + 1;
     console.log(bigboard);
@@ -134,8 +147,18 @@ function boardReset() {
   gameMessage.innerHTML = playerNames[0] + "'s turn!";
 
   // reset game
+  turnNo = 0;
   currentBigCell = -1;
   gameOngoing = true;
+  aiOn = false;
+  for (let i = 0; i < 5; i++) {
+    positions[i] = 0;
+    rotations[i] = 0;
+    aichoices[i] = 0;
+  }
+  // enable startgame buttons
+  startGameBlue.disabled = false;
+  startGameRed.disabled = true;
 }
 
 // check valid move
@@ -152,11 +175,6 @@ function checkValid(big, small) {
 
   // bigboard value
   if (bigboard[big] != 0) {
-    return false;
-  }
-
-  // occupied small cell
-  if (smallboards[big][small] != 0) {
     return false;
   }
 
@@ -198,4 +216,136 @@ function checkWin(array) {
 
   // draw
   return 3;
+}
+
+// plays the game
+function startGame(aiplayer) {
+  // ai on
+  aiOn = true;
+
+  // disable startgame buttons
+  startGameBlue.disabled = true;
+  startGameRed.disabled = true;
+
+  // if aiplayer = 0: turn 0
+
+  // if aiplayer = 1: turn 0 or 1
+
+  console.log(aiplayer);
+}
+
+// ai turn
+function aiTurn() {
+  let turn = "turn" + turnNo;
+  let beads = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+  // find the right state using copyboard
+  for (let i = 0; i < MENACE["states"][turnNo]; i++) {
+    let rot = checkRotations(MENACE[turn][i]["stateName"], bigboard);
+    if (rot != -1) {
+      // remember indices for backpropagating(?)
+      positions[Math.floor(turnNo / 2)] = i;
+      rotations[Math.floor(turnNo / 2)] = rot;
+
+      copyBoard(MENACE[turn][i]["beads"], beads);
+      // rotate beads
+      rotateBeads(beads, rot);
+      // find available cell
+      // click that cell
+    }
+  }
+}
+
+// copy over board
+function copyBoard(src, dest) {
+  for (let i = 0; i < 9; i++) {
+    dest[i] = src[i];
+  }
+}
+
+// check rotations
+// gamestate: statename
+// boardstate: int board
+function checkRotations(gameState, boardState) {
+  let temp = 0;
+  let copy = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+  copyBoard(boardState, copy);
+
+  // 0-3: rotations
+  for (let i = 0; i < 4; i++) {
+    // check
+    if (checkEqual(gameState, boardToString(copy))) {
+      return i;
+    }
+    // rotate corners
+    temp = copy[0];
+    copy[0] = copy[6];
+    copy[6] = copy[8];
+    copy[8] = copy[2];
+    copy[2] = temp;
+    // rotate edges
+    temp = copy[1];
+    copy[1] = copy[3];
+    copy[3] = copy[7];
+    copy[7] = copy[5];
+    copy[5] = temp;
+  }
+
+  // 4-7: reflect, then rotate
+  // reflect corners and edges
+  temp = copy[0];
+  copy[0] = copy[6];
+  copy[6] = temp;
+  temp = copy[1];
+  copy[1] = copy[7];
+  copy[7] = temp;
+  temp = copy[2];
+  copy[2] = copy[8];
+  copy[8] = temp;
+  // rotate
+  for (let i = 0; i < 4; i++) {
+    // check
+    if (checkEqual(gameState, boardToString(copy))) {
+      return 4+i;
+    }
+    // rotate corners
+    temp = copy[0];
+    copy[0] = copy[6];
+    copy[6] = copy[8];
+    copy[8] = copy[2];
+    copy[2] = temp;
+    // rotate edges
+    temp = copy[1];
+    copy[1] = copy[3];
+    copy[3] = copy[7];
+    copy[7] = copy[5];
+    copy[5] = temp;
+  }
+
+  return -1;
+}
+
+// convert board to string
+function boardToString(board) {
+  let output = "";
+
+  for (let i = 0; i < 9; i++) {
+    switch(board[i]) {
+      case 0:
+        output += '_';
+        break;
+      case 1:
+        output += 'B';
+        break;
+      case 2:
+        output += 'R';
+        break;
+      default:
+        output += 'X';
+    }
+  }
+}
+
+// rotate beads
+function rotateBeads(board, rot) {
+
 }
