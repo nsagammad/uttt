@@ -4,6 +4,8 @@ const playerColor = document.getElementById("player-color");
 const gameMessage = document.getElementById("game-message");
 const startGameBlue = document.getElementById("start-game-blue");
 const startGameRed = document.getElementById("start-game-red");
+const gameScores = document.getElementById("game-scores");
+const turnOff = document.getElementById("turn-off");
 
 // arrays
 const playerNames = ["Blue", "Red"];
@@ -12,17 +14,44 @@ const positions = [0, 0, 0, 0, 0];
 const rotations = [0, 0, 0, 0, 0];
 const aichoices = [0, 0, 0, 0, 0];
 
+// rotation arrays
+const rot0 = [0, 1, 2, 
+              3, 4, 5, 
+              6, 7, 8];
+const rot1 = [2, 5, 8, 
+              1, 4, 7, 
+              0, 3, 6];
+const rot2 = [8, 7, 6, 
+              5, 4, 3, 
+              2, 1, 0];
+const rot3 = [6, 3, 0, 
+              7, 4, 1, 
+              8, 5, 2];
+const rot4 = [6, 7, 8, 
+              3, 4, 5, 
+              0, 1, 2];
+const rot5 = [8, 5, 2, 
+              7, 4, 1, 
+              6, 3, 0];
+const rot6 = [2, 1, 0, 
+              5, 4, 3, 
+              8, 7, 6];
+const rot7 = [0, 3, 6, 
+              1, 4, 7, 
+              2, 5, 8];
+const revrot = [rot0, rot1, rot2, rot3, rot4, rot5, rot6, rot7];
+
 // other variables
 var currentPlayer = 0; // 0: blue, 1: red;
 var currentBigCell = -1; // -1: any, 0-8: specific
 var turnNo = 0;
 var gameOngoing = true;
 var aiOn = false;
+var aiPlayer = 0;
+var MENACEWins = 0;
+var MENACELosses = 0;
+var MENACEDraws = 0;
 
-// load MENACE
-fetch('./MENACE.json')
-  .then((response) => response.json())
-  .then((MENACE) => console.log(MENACE["states"]));
 
 // switch players
 function switchPlayer() {
@@ -76,11 +105,21 @@ function clickBigCell(cell) {
         // update game message
         gameMessage.innerHTML = playerNames[currentPlayer] + " wins the game!";
         gameOngoing = false;
+
+        // update menace
+        if (aiOn) {
+          updateMENACE(bigWin);
+        }
         break;
       case 3:
         // update game message
         gameMessage.innerHTML = "It's a draw!";
         gameOngoing = false;
+
+        // update menace
+        if (aiOn) {
+          updateMENACE(bigWin);
+        }
         break;
       default:
         // update game message
@@ -90,6 +129,10 @@ function clickBigCell(cell) {
     if (gameOngoing) {
       // switch players
       switchPlayer();
+
+      if (aiOn && currentPlayer == aiPlayer) {
+        aiTurn();
+      }
     }
   }
 }
@@ -130,7 +173,6 @@ function boardReset() {
 
     // small cells
     for (let j = 0; j < 9; j++) {
-      smallboards[i][j] = 0;
       let id = "cell-" + i + "-" + j;
       let cell = document.getElementById(id);
       if (cell != null) {
@@ -150,15 +192,20 @@ function boardReset() {
   turnNo = 0;
   currentBigCell = -1;
   gameOngoing = true;
-  aiOn = false;
   for (let i = 0; i < 5; i++) {
     positions[i] = 0;
     rotations[i] = 0;
     aichoices[i] = 0;
   }
-  // enable startgame buttons
-  startGameBlue.disabled = false;
-  startGameRed.disabled = true;
+  // enable startgame buttons based on ai state
+  if (aiOn) {
+    startGame(aiPlayer);
+  }
+  else {
+    startGameBlue.disabled = false;
+    startGameRed.disabled = false;
+    turnOff.disabled = true;
+  }
 }
 
 // check valid move
@@ -222,16 +269,20 @@ function checkWin(array) {
 function startGame(aiplayer) {
   // ai on
   aiOn = true;
+  aiPlayer = aiplayer;
 
   // disable startgame buttons
   startGameBlue.disabled = true;
   startGameRed.disabled = true;
+  turnOff.disabled = false;
 
   // if aiplayer = 0: turn 0
-
   // if aiplayer = 1: turn 0 or 1
+  if (aiplayer == 1 && turnNo == 0) {
+    return;
+  }
 
-  console.log(aiplayer);
+  aiTurn();
 }
 
 // ai turn
@@ -246,11 +297,30 @@ function aiTurn() {
       positions[Math.floor(turnNo / 2)] = i;
       rotations[Math.floor(turnNo / 2)] = rot;
 
-      copyBoard(MENACE[turn][i]["beads"], beads);
+      // console log menace
+      console.log(MENACE[turn][i]["stateName"]);
+
+      copyBoard(MENACE[turn][i]["Beads"], beads);
       // rotate beads
       rotateBeads(beads, rot);
       // find available cell
-      // click that cell
+      let cellNo = findAvailableCell(beads);
+
+      // check if menace can still play
+      if (cellNo == -1) {
+        // update game message
+        gameMessage.innerHTML = "MENACE cannot play. User wins the game!";
+        gameOngoing = false;
+      }
+      else {
+        aichoices[Math.floor(turnNo / 2)] = cellNo;
+        let id = "cell-" + cellNo + "-0";
+        let cell = document.getElementById(id);
+      
+        // click that cell
+        clickBigCell(cell);
+      }
+      break;
     }
   }
 }
@@ -268,7 +338,10 @@ function copyBoard(src, dest) {
 function checkRotations(gameState, boardState) {
   let temp = 0;
   let copy = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+  // console.log(boardState);
   copyBoard(boardState, copy);
+  // console.log(copy);
+  // console.log(boardToString(copy));
 
   // 0-3: rotations
   for (let i = 0; i < 4; i++) {
@@ -327,6 +400,7 @@ function checkRotations(gameState, boardState) {
 // convert board to string
 function boardToString(board) {
   let output = "";
+  // console.log("boardtostring: " + board);
 
   for (let i = 0; i < 9; i++) {
     switch(board[i]) {
@@ -343,9 +417,173 @@ function boardToString(board) {
         output += 'X';
     }
   }
+
+  return output;
+}
+
+// compare string
+function checkEqual(gameState, boardState) {
+  for (let i = 0; i < 9; i++) {
+    if (gameState.charAt(i) != boardState.charAt(i)) {
+      return false;
+    }
+  }
+
+  return true;
 }
 
 // rotate beads
 function rotateBeads(board, rot) {
+  let temp = 0;
+  // rotations ccw
+  for (let i = 0; i < rot % 4; i++) {
+    // rotate corners
+    temp = board[0];
+    board[0] = board[2];
+    board[2] = board[8];
+    board[8] = board[6];
+    board[6] = temp;
+    // rotate edges
+    temp = board[1];
+    board[1] = board[5];
+    board[5] = board[7];
+    board[7] = board[3];
+    board[3] = temp;
+  }
+  // reflections
+  if (rot >= 4) {
+    temp = board[0];
+    board[0] = board[6];
+    board[6] = temp;
+    temp = board[1];
+    board[1] = board[7];
+    board[7] = temp;
+    temp = board[2];
+    board[2] = board[8];
+    board[8] = temp;
+  }
+}
 
+// reverse rotations
+function reverseRotate(index, rot) {
+  let newIndex = 0;
+
+  newIndex = revrot[rot][index];
+
+  return newIndex;
+}
+
+// find available cell based on beads
+function findAvailableCell(beads) {
+  let cellNo = -1;
+  let sum = 0;
+
+  // get total beads
+  for (let i = 0; i < 9; i++) {
+    sum += beads[i];
+  }
+
+  // get random number
+  let random = Math.floor(Math.random() * sum) + 1;
+
+  // check which cell it is
+  sum = 0;
+  for (let i = 0; i < 9; i++) {
+    sum += beads[i];
+    if (sum >= random) {
+      cellNo = i;
+      break;
+    }
+  }
+
+  return cellNo;
+}
+
+// update MENACE
+function updateMENACE(outcome) {
+  let beadUpdate = 0;
+  let turn = 0;
+  let turnId = "";
+  let index = 0;
+
+  // consolelogs
+  console.log("Positions: " + positions);
+  console.log("Rotations: " + rotations);
+  console.log("Choices: " + aichoices);
+
+  if (outcome == 3) { // draw
+    console.log("Draw Game between User and MENACE!");
+    beadUpdate = 1;
+    MENACEDraws++;
+  }
+  else if (outcome == aiPlayer + 1) { // win
+    console.log("MENACE Wins!");
+    beadUpdate = 3;
+    MENACEWins++;
+  }
+  else { // lose
+    console.log("User Wins!");
+    beadUpdate = -1;
+    MENACELosses++;
+  }
+
+  // update beads
+  console.log("Final value of turnNo: " + turnNo); // turnNo is number of marks
+  // [1, 3, 5, 7, 9] -> [0, 1, 2, 3, 4] aiplayer = 0 -> [0, 2, 4, 6, 8]
+  // [2, 4, 6, 8, 0] -> [0, 1, 2, 3, 4] aiplayer = 1 -> [1, 3, 5, 7, 0]
+  // go through each position
+  for (let i = 0; i < Math.floor((turnNo - 1) / 2); i++) {
+    turn = (2 * i) + aiPlayer;
+    turnId = "turn" + turn;
+
+    // convert choice and rotation to new index
+    index = reverseRotate(aichoices[i], rotations[i]);
+
+    // update beads
+    MENACE[turnId][positions[i]]["Beads"][index] += beadUpdate;
+    if (MENACE[turnId][positions[i]]["Beads"][index] < 0) {
+      MENACE[turnId][positions[i]]["Beads"][index] = 0;
+    }
+  }
+
+  // update h1
+  gameScores.innerHTML = "MENACE's Current Score: " + MENACEWins + "-" + MENACELosses + "-" + MENACEDraws;
+}
+
+// turn of menace
+function turnOffAI() {
+  aiOn = false;
+  boardReset();
+}
+
+// modal things
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("save-state");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// Get the <textarea> that holds the json file
+var jsonholder = document.getElementById("json-holder");
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  turnOffAI();
+  jsonholder.innerText = JSON.stringify(MENACE);
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }

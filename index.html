@@ -16,6 +16,18 @@
         <a href="uttt.html">Try Ultimate Tic-Tac-Toe</a>
       </h3>
     </header>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <textarea id="json-holder" class="textarea">Text</textarea>
+      </div>
+
+    </div>
+
     <div class="game-container" id="game-container">
       <div class="big-row">
         <div class="big-cell" id="bigcell-0">
@@ -54,14 +66,19 @@
     <div class="current-player">
       <h2>Current Player:</h2>
       <h3 class="player-color" id="player-color">Blue</h3>
-      <button id="start-game-blue" onclick="startGame(0)">Play vs AI (Blue)</button>
-      <button id="start-game-red" onclick="startGame(1)" disabled>Play vs AI (Red)</button>
+      <button id="start-game-blue" onclick="startGame(0)">Play Red vs Blue AI</button>
+      <button id="start-game-red" onclick="startGame(1)">Play Blue vs Red AI</button>
+      <button id="turn-off" onclick="turnOffAI()" disabled>Turn Off AI</button>
       <button onclick="boardReset()">Reset</button>
-      <button disabled>Save State</button>
+      <button id="save-state">Save State</button>
     </div>
     <div class="game-result">
       <h1 id="game-message">Blue's turn!</h1>
     </div>
+    <div class="scores">
+      <h1 id="game-scores">MENACE's Current Score: 0-0-0</h1>
+    </div>
+  <script type="module" src="menace.js"></script>
 	<script src="index.js"></script>
   </body>
 </html>
