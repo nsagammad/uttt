@@ -31,7 +31,7 @@ class gameState {
 // variables
 vector<gameState> gameStates;
 int boardState[9] = {0, 0, 0, 0, 0, 0, 0, 0, 0};
-const int MAXBEADS = 5;
+const int MAXBEADS = 3;
 int startIndex[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 int turnNo = 0;
 int counter = 0;
